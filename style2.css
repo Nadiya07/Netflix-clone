@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+              margin: 0;
+              padding: 0;
+              font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+              background-color: black;
+              overflow-x: hidden;
+}
+
+
+.container {
+              background-image: url(assets/images/background.jpg);
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: max(1200px, 100vw);
+              height: 644px;
+              position: relative;
+              overflow: hidden;
+}
+
+.container .box {
+              height: 644px;
+              position: absolute;
+              z-index: 10;
+              background-color: #030303a1;
+              width: max(1200px, 100vw);
+              overflow-wrap: calc(100vw-168px);
+
+
+}
+
+nav .logo img {
+              width: 144px;
+
+              position: relative;
+              left: 168px;
+              top: 32px;
+              z-index: 10;
+}
+
+nav {
+              display: flex;
+              justify-content: space-between;
+}
+
+.head {
+              margin-right: 181px;
+              display: flex;
+              gap: 12px;
+              margin-top: 34px;
+              font-family: 'Poppins';
+              font-size: 16px;
+
+
+}
+
+.red {
+              background-color: rgb(238, 54, 54);
+              border: 1px solid black;
+              border-radius: 8px;
+              padding: 5px 16px;
+              color: white;
+              font-weight: 600;
+}
+
+.gray {
+              line-height: 20px;
+              background-color: #140f18;
+              color: white;
+              border: 1px solid white;
+              border-radius: 3px;
+              cursor: pointer;
+              padding: 5px 34px;
+              font-weight: 400;
+              font-size: 15px;
+
+}
+
+.gray img {
+              filter: invert(1);
+              width: 9px;
+              gap: 2px;
+              margin: 0 0 0 8px;
+}
+
+.main {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              color: white;
+              position: relative;
+              top: 170px;
+}
+
+.first {
+              font-size: 48px;
+              font-weight: bolder;
+}
+
+.second {
+              font-size: 24px;
+              font-weight: 400;
+}
+
+.third {
+              font-size: 20px;
+              font-weight: 400;
+}
+
+.button {
+              display: flex;
+
+              gap: 20px;
+              top: 24px;
+              position: relative;
+}
+
+.main input {
+              background-color: #23211f78;
+              color: white;
+              padding: 12px 64px;
+              border: 1px solid white;
+              display: flex;
+              font-size: 20px;
+              text-align: left;
+              border-radius: 3px;
+
+
+}
+
+.button .btnn {
+              font-size: 20px;
+              font-weight: 400;
+              border-radius: 5px;
+              padding: 0 26px;
+              display: flex;
+              /* text-align: center; */
+              /* justify-content: center; */
+              align-items: center;
+}
+
+.separation {
+
+              /* background-color:   #232323; */
+              background-color: rgb(46, 44, 44);
+              width: 100%;
+              position: relative;
+              top: 379px;
+              height: 7px;
+              z-index: 20;
+}
+
+section .one {
+              display: flex;
+              justify-content: center;
+              max-width: 70vw;
+              margin: auto;
+              color: white;
+              justify-content: center;
+              align-items: center;
+}
+
+.imge img {
+
+              width: 555px;
+              position: absolute;
+              z-index: 10;
+              /* right:30px; */
+              top: 0px;
+              
+              left: 796px;
+}
+
+.imge video {
+              position: absolute;
+             
+              height: 190px;
+              top: 750px;
+              right: 62px;
+              z-index: 10;
+}
+
+
+
+.imge img {
+              margin-bottom: 234px;
+              width: 478px;
+              position: relative;
+              top: -114px;
+              left: 100px;
+}
+
+section.first>div {
+              display: flex;
+              flex-direction: column;
+              padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+              font-size: 48px;
+              font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+              font-size: 24px;
+
+}
+
+
+.text:nth-child(3) {
+              font-size: 28px;
+              font-weight: bold;
+}
+
+.text:nth-child(4) {
+              font-size: 28px;
+              font-weight: bold;
+}
